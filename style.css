@@ -41,7 +41,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: 80px; /* Adjust top margin to clear fixed header */
+    margin-top: 80px; 
     box-sizing: border-box;
     width: 100%;
 }
@@ -63,8 +63,8 @@ nav ul li a {
 }
 .aside img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .aside .info {
     text-align: center;
@@ -127,7 +127,7 @@ main {
     background-color: #17a2b8;
 }
 .tag.workshop {
-    background-color: #79ded2; /* Different color for workshop */
+    background-color: #79ded2; 
 }
 .btn {
     display: inline-block;
