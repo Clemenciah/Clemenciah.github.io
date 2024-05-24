@@ -1,75 +1,164 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
     display: flex;
-    min-height: 100vh;
-  }
-  
-  header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    flex: 1;
-  }
-  
-  h1, h2 {
-    margin: 0;
-  }
-  
-  nav {
+    flex-direction: column;
+    font-size: 18px; /* Main font size */
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  nav a {
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
     text-decoration: none;
-    color: black;
-  }
-  
-  main {
+    color: #007BFF;
+    font-weight: bold;
+}
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    flex: 4;
-  }
-  
-  section {
+    margin-top: 80px; /* Adjust top margin to clear fixed header */
+    box-sizing: border-box;
+    width: 100%;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(252, 250, 250);
+}
+.aside {
+    width: 25%;
+    background-color: #c66363;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.aside img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.aside .info {
+    text-align: center;
+    margin-top: 20px;
+}
+.aside .info h3 {
+    margin: 10px 0 5px;
+}
+.aside .info p {
+    margin: 5px 0;
+}
+.aside .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.aside .contact-info a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+main {
+    width: 70%;
+    margin-left: 20px;
+}
+.section {
     margin-bottom: 20px;
-  }
-  
-  aside {
-    background-color: #f0f0f0;
-    padding: 20px;
-    width: 20%;
-  }
-  
-  #contact ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #contact ul li {
-    margin-bottom: 5px;
-  }
-  
-  footer {
+}
+.section h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #f291e8;
+    padding-bottom: 5px;
+}
+.publications {
+    font-size: 14px; 
+}
+.publications .publication {
+    margin-bottom: 10px;
+}
+.publications .publication h3 {
+    margin: 0;
+    font-size: 1em;
+}
+.publications .publication p {
+    margin: 5px 0;
+}
+.tag {
+    display: inline-block;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 0.8em;
+    color: white;
+    border-radius: 3px;
+}
+.tag.conference {
+    background-color: #28a745;
+}
+.tag.journal {
+    background-color: #17a2b8;
+}
+.tag.workshop {
+    background-color: #79ded2; /* Different color for workshop */
+}
+.btn {
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 5px 5px 0 0;
+    font-size: 0.8em;
+    color: white;
+    background-color: #748495;
+    border-radius: 3px;
+    text-decoration: none;
+}
+footer {
     text-align: center;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: white;
+    border-top: 1px solid #b4b3b3;
+    box-sizing: border-box;
     width: 100%;
-  }
-  .profile-pic {
-    width: 90%;  
-    max-height: 200px;  
-    border-radius: 50%;  
-    object-fit: cover;  
-  }  
+}
+.about-section, .activities-section {
+    background-color: #dddada;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.about-section p, .activities-section div {
+    margin: 10px 0;
+}
+.interests, .activities {
+    padding-left: 10px;
+}
+.interests p, .activities p {
+    margin: 5px 0;
+}
