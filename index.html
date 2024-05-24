@@ -1,112 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clemencia Nyamisa Siro - PhD Candidate | NLP Researcher</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clemencia Nyamisa Siro - PhD Candidate | NLP Researcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
     <header>
-        
-      <nav>
-        <ul>
-          <li><b>Clemencia Siro</b></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#activities">Activities</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a href="#container"><b>Clemencia Siro</b></a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <aside>
-      <img src="C_Siro.jpg" alt="Clemencia Siro - PhD Candidate" class="profile-pic">
-      <h3 class="name">Clemencia Siro</h3>
-        <p class="position">PhD Candidate, University of Amsterdam</p>
-     
+    <div class="content">
+        <div class="container">
+            <aside class="aside">
+                <img src="C_Siro.jpg" alt="Clemencia Siro - PhD Candidate" class="profile-pic">
+                <div class="info">
+                    <h3 class="name">Clemencia Siro</h3>
+                    <p class="position">PhD Candidate, University of Amsterdam</p>
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:c.n.siro@uva.nl">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=VSJ78nMAAAAJ" target="_blank">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="https://twitter.com/cnsiro">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/clemencia-siro">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </aside>
 
-      <ul>
-        <li><a href="mailto:c.n.siro@uva.nl">
-          <i class="fas fa-envelope"></i> 
-        </a></li>
-        <li><a href="https://scholar.google.com/citations?hl=en&user=VSJ78nMAAAAJ" target="_blank">
-          <i class="fas fa-graduation-cap"></i> 
-        </a></li>
-        <li><a href="https://twitter.com/cnsiro">
-          <i class="fab fa-twitter"></i> 
-        </a></li>
-        <li><a href="https://www.linkedin.com/in/clemencia-siro">
-          <i class="fab fa-linkedin"></i> 
-        </a></li>
-      </ul>
-      
-  </aside>
+            <main>
+                <section id="about" class="section about-section">
+                    <h2>About me ...</h2>
+                    <p>
+                        I am a third-year PhD candidate at the University of Amsterdam, supervised by <a href="https://staff.fnwi.uva.nl/m.derijke/bio/">Maarten de Rijke</a> and <a href="https://aliannejadi.com/">Mohammad Alian Nejadi</a>.
+                        My research focus is on the evaluation of conversational systems, specifically from the user's perspective. I aim to improve user experience in their interaction with AI systems.
+                        I am also interested in how to leverage LLMs for evaluation and studying how factors affecting humans in system evaluation, affect LLMs when used as evaluators.
+                        Apart from that, I am an active member of Masakhane where I take part in promoting NLP for Low-resource African languages.
+                        <br> <br>
+                        I completed my MSc degree from the African Institute for Mathematical Sciences - AMMI (Rwanda) supervised by <a href="https://sivareddy.in/">Siva Reddy</a> from McGill University. I received my BSc from Jomo Kenyatta University, Kenya.
+                        
+                    </p>
+                </section>
 
-    <main>
-      
+                <section id="research" class="section">
+                    <h2>Research Interests</h2>
+                    <div class="interests">
+                        <p>User-centric evaluation of conversational systems</p>
+                        <p>Evaluation of and with large language models</p>
+                        <p>NLP for low-resource African languages</p>
+                    </div>
+                </section>
 
-      <section id="about">
-        <h2>About me ...</h2>
-        <p> I am a third year PhD candidate at the University of Amsterdam, supervised by <a href="https://staff.fnwi.uva.nl/m.derijke/bio/">Maarten de Rijke</a>  and <a href="https://aliannejadi.com/">Mohammad Alian Nejadi</a>. 
-         I completed my MSc degree from African Institute for Mathematical Sciences - AMMI (Rwanda) supervised by <a href="https://sivareddy.in/">Siva Reddy </a> from McGill University. I received my BSc from Jomo Kenyatta Uniersity, Kenya.
-          
-          My research focus is on the evaluation
-        of conversational systems, specifically from the user's perspective. I aim to improve user experience in their interaction with AI systems. 
-        I am also interested on how to leverage LLMs for evaluation and studying how factors affecting humans in system evaluation, affect LLMs when used as evaluators.
-        Apart from that I am an active member of Masakhane where I take part in promoting NLP for Low-resource African languages.
-        
-     </p>
-      </section>
+                <section id="publications" class="section publications">
+                    <h2>Publications</h2>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2404.12994" target="_blank">Rethinking the Evaluation of Dialogue Systems: Effects of User Feedback on Crowdworkers and LLMs</a></h3>
+                        <p>SIGIR'24 <span class="tag conference">conference</span></p>
+                        <p><strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Maarten de Rijke</p>
+                        <a href="https://arxiv.org/abs/2404.12994" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2404.09980" target="_blank">Context Does Matter: Implications for Crowdsourced Evaluation Labels in Task-Oriented Dialogue Systems</a></h3>
+                        <p>NAACL'24 <span class="tag conference">conference</span></p>
+                        <p><strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Maarten de Rijke</p>
+                        <a href="https://arxiv.org/abs/2404.09980" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2402.07742" target="_blank">Asking Multimodal Clarifying Questions in Mixed-Initiative Conversational Search</a></h3>
+                        <p>WWW'24 <span class="tag conference">conference</span></p>
+                        <p>Yifei Yuan, <strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Maarten de Rijke</p>
+                        <a href="https://arxiv.org/abs/2402.07742" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2305.06897" target="_blank">Cross-lingual Open-Retrieval Question Answering for African Languages</a></h3>
+                        <p>EMNLP'23 <span class="tag conference">conference</span></p>
+                        <p>Ogundepo Odunayo, ..., <strong>Clemencia Siro</strong>, et al.</p>
+                        <a href="https://arxiv.org/abs/2305.06897" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://dl.acm.org/doi/full/10.1145/3624989" target="_blank">Understanding and Predicting User Satisfaction with Conversational Recommender Systems</a></h3>
+                        <p>ACM TOIS 2023 <span class="tag journal">journal</span></p>
+                        <p><strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Maarten de Rijke</p>
+                        <a href="https://dl.acm.org/doi/full/10.1145/3624989" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2304.09972" target="_blank">AFRICANEWS: News Topic Classification for African News</a></h3>
+                        <p>AACL'23 <span class="tag conference">conference</span> (Area Chair Award)</p>
+                        <p>Adelani, David Ifeoluwa, ..., <strong>Clemencia Siro</strong>, et al.</p>
+                        <a href="https://arxiv.org/abs/2304.09972" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2304.03145" target="_blank">Evaluating the Robustness of Machine Reading Comprehension Models to Low Resource Entity Renaming</a></h3>
+                        <p>AfricaNLP Workshop at ICLR'23 <span class="tag workshop">workshop</span></p>
+                        <p><strong>Clemencia Siro</strong>, Tunde Ajayi</p>
+                        <a href="https://arxiv.org/abs/2304.03145" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://arxiv.org/abs/2206.04615" target="_blank">Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models</a></h3>
+                        <p>TMLR 2023 <span class="tag journal">journal</span></p>
+                        <p>Srivastava, Aarohi,..., <strong>Clemencia Siro</strong>, et al.</p>
+                        <a href="https://arxiv.org/abs/2206.04615" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://dl.acm.org/doi/abs/10.1145/3477495.3531798" target="_blank">Understanding User Satisfaction with Task-oriented Dialogue Systems</a></h3>
+                        <p>SIGIR'22 <span class="tag conference">conference</span></p>
+                        <p><strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Maarten de Rijke</p>
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3477495.3531798" class="btn">PDF</a>
+                    </div>
+                    <div class="publication">
+                        <h3><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00416/107614/MasakhaNER-Named-Entity-Recognition-for-African" target="_blank">MasakhaNER: Named entity recognition for African languages</a></h3>
+                        <p>TACL 2021 <span class="tag journal">journal</span></p>
+                        <p>Adelani, David Ifeoluwa, ..., <strong>Clemencia Siro</strong>, et al.</p>
+                        <a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00416/107614/MasakhaNER-Named-Entity-Recognition-for-African" class="btn">PDF</a>
+                    </div>
+                </section>
 
-      <section id="research">
-        <h2>Research interests:</h2>
-        <ul>
-          <li>User-centric evaluation of conversational systems</li>
-          <li>Evaluation of and with large language models </li>
-          <li>NLP for low-resource African languages</li>
-        </ul>
-      </section>
+                <section id="activities" class="section activities-section">
+                    <h2>Activities</h2>
+                    <div class="activities">
+                        <p>2024 - LLM4IREval workshop organizer at SIGIR'24</p>
+                        <p>2023 - AfricaNLP workshop organizer at ICLR'23 and ICLR'24</p>
+                        <p>2022: Guest speaker - Master AI University of Amsterdam: Evaluation of Dialogue System with Users</p>
+                        <p>2022 - Present: Mentor for Master AI students at the University of Amsterdam</p>
+                        <p>2019 - Present: Member of MasakhaneNLP, an NLP group for African languages</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
 
-      <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-          <li> <b>Clemencia Siro</b>, Mohammad Aliannejadi, and Maarten de Rijke. Rethinking the Evaluation of Dialogue Systems:
-Effects of User Feedback on Crowdworkers and LLMs. (SIGIR'24) <a href="https://arxiv.org/abs/2404.12994">Pdf</a></li>
-          <li> <b>Clemencia Siro</b>, Mohammad Aliannejadi, and Maarten de Rijke. Context Does Matter: Implications for Crowdsourced Evaluation Labels in Task-Oriented Dialogue Systems (NAACL'24) <a href = "https://arxiv.org/abs/2404.09980">Pdf</a></li>
-          <li> Yifei Yuan, <b>Clemencia Siro</b>, Mohammad Aliannejadi, and Maarten de Rijke. Asking Multimodal Clarifying Questions in Mixed-Initiative Conversational Search (WWW'24) <a href = "https://arxiv.org/abs/2402.07742">Pdf</a></li>
-          <li>Ogundepo Odunayo, ..., <b>Siro, Clemencia</b>, et al.Cross-lingual Open-Retrieval Question Answering for African Languages (EMNLP'23) <a href = "https://arxiv.org/abs/2305.06897">Pdf</a></li>
-          <li><b>Clemencia Siro</b>, Mohammad Aliannejadi, and Maarten de Rijke.Understanding and Predicting User Satisfaction with Conversational Recommender Systems (ACM TOIS 2023) <a href = "https://dl.acm.org/doi/full/10.1145/3624989">Pdf</a></li>
-          <li>Adelani, David Ifeoluwa, ..., <b>Siro, Clemencia</b>, et al.AFRICANEWS: News Topic Classification for African News (AACL'23) (Area Chair Award) <a href = "https://arxiv.org/abs/2304.09972">Pdf</a></li>
-          <li><b>Clemencia Siro</b>, Tunde Ajayi. Evaluating the Robustness of Machine Reading Comprehension Models to Low Resource Entity Renaming (AfricaNLP Workshop at ICLR'23) <a href = "https://arxiv.org/abs/2304.03145">Pdf</a></li>
-          <li>Srivastava, Aarohi,..., <b>Clemencia Siro</b>, et al.Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models (TMLR 2023) <a href = "https://arxiv.org/abs/2206.04615">Pdf</a></li>
-          <li> <b>Clemencia Siro</b>, Mohammad Aliannejadi, and Maarten de RijkeUnderstanding User Satisfaction with Task-oriented Dialogue Systems (SIGIR'22) <a href = "https://dl.acm.org/doi/abs/10.1145/3477495.3531798">Pdf</a></li>
-          <li> Adelani, David Ifeoluwa, ..., <b>Siro, Clemencia</b>, et al.MasakhaNER: Named entity recognition for African languages (TACL 2021) <a href = "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00416/107614/MasakhaNER-Named-Entity-Recognition-for-African">Pdf</a></li>
-        </ul>
-      </section>
+    <footer>
+        <p>&copy; Clemencia Siro <span id="year"></span></p>
+    </footer>
 
-      <section id="activities">
-        <h2>Activities</h2>
-        <ul>
-          <li> 2024 - LLM4IREval workshop organizer at SIGIR'24</li>
-          <li>2023 -  AfricaNLP workshop organizer at ICLR'23 and ICLR'24</li>
-        <li>2022: Guest speaker - Master AI University of Amsterdam: Evaluation of Dialogue System with Users</li>
-        <li>2022 - Present: Mentor for Master AI students at the University of Amsterdam</li>
-        <li>2019 - Present: Member of MasakhaneNLP, an NLP group for African languages</li>
-      </ul>
-    </section>
-
-  
-  </main>
-
-
-</div>
-<footer>
-  <p>&copy; Clemencia Siro  <?php echo date("Y"); ?></p>
-</footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
-
