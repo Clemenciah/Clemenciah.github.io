@@ -10,6 +10,12 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -27,6 +33,7 @@
         <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#activities">Activities</a></li>
+        <li><a href="#prospective">Prospective Students</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -76,26 +83,29 @@
       <section id="about" class="section about-section">
         <h2>About Me</h2>
         <p>
-  I am a postdoctoral researcher at Centrum Wiskunde & Informatica (CWI), working on bias and fairness in AI systems. I obtained my Ph.D. degree from the University of Amsterdam (UvA), supervised by <a href="https://staff.fnwi.uva.nl/m.derijke/bio/">Maarten de Rijke</a> and <a href="https://aliannejadi.com/">Mohammad Alian Nejadi</a>. I completed my MSc degree at the African Institute for Mathematical Sciences – AMMI (Rwanda), supervised by <a href="https://sivareddy.in/">Siva Reddy</a> from McGill University, and my BSc at Jomo Kenyatta University.
-</p>
-<p>
-  My research interests focus on user-centric evaluation of conversational systems and leveraging large language models for evaluation. I am also a member of <a href="https://www.masakhane.io/"> Masakhane, </a>  contributing to NLP research for low-resource African languages.
-</p>
-</p>
-<p>
-  I successfully defended my Ph.D. thesis titled 
-  <a href="https://pure.uva.nl/ws/files/237858349/Thesis.pdf" target="_blank" rel="noopener">
-    Rethinking the Human-Centered Evaluation of Conversational Systems
-  </a> on 8th July 2025.
-</p>
+          I am a postdoctoral researcher at <a href="https://www.cwi.nl/">Centrum Wiskunde &amp; Informatica (CWI)</a> in Amsterdam. In January 2027, I will join the Web Information Systems (WIS) group at Delft University of Technology as an Assistant Professor.
+        </p>
+        <p>
+          My research lies at the intersection of Information Retrieval, Natural Language Processing, and Human&ndash;AI Interaction. I am interested in how we evaluate AI systems, whether existing evaluation methods reflect human needs and judgments, and how reliable these methods are across different tasks, languages, and contexts. My work spans human-centered evaluation, LLM-based evaluation, and responsible and trustworthy AI.
+        </p>
+        <p>
+          I received my PhD from the University of Amsterdam in July 2025, under the supervision of <a href="https://staff.fnwi.uva.nl/m.derijke/bio/">Maarten de Rijke</a> and <a href="https://aliannejadi.com/">Mohammad Aliannejadi</a>. My thesis is titled
+          <a href="https://pure.uva.nl/ws/files/237858349/Thesis.pdf" target="_blank" rel="noopener"><em>Rethinking the Human-Centered Evaluation of Conversational Systems</em></a>.
+          Before that, I completed my MSc at the African Institute for Mathematical Sciences (AMMI) in Rwanda and my BSc at Jomo Kenyatta University of Agriculture and Technology in Kenya.
+        </p>
+        <p>
+          I serve on the board of the <a href="https://www.masakhane.io/">Masakhane Research Foundation</a>, which supports research on NLP for African languages. I also co-organize the AfricaNLP and LLM4Eval workshops.
+        </p>
       </section>
 
       <section id="research" class="section research-section">
         <h2>Research Interests</h2>
         <ul class="interests-list">
-          <li>User-centric evaluation of conversational systems</li>
+          <li>Human-centered evaluation of AI systems</li>
           <li>Evaluation of and with large language models</li>
-          <li>NLP for low-resource African languages</li>
+          <li>Conversational search and information retrieval</li>
+          <li>Multilingual and cross-cultural NLP, with a focus on African languages</li>
+          <li>Responsible and trustworthy AI</li>
         </ul>
       </section>
 
@@ -103,6 +113,37 @@
   <h2>Publications</h2>
 
   <h3>Preprints & Under Submission</h3>
+
+<article class="publication">
+  <p>
+    <a href="https://arxiv.org/abs/2608.14626" target="_blank" rel="noopener">
+      LLM Safety Alignment in Low-Resource Languages: A Systematic Literature Review
+    </a>
+  </p>
+  <p class="pub-meta">
+    arXiv <span class="tag preprint">preprint</span>
+  </p>
+  <p class="pub-authors">
+    Victor Douglace Lemofouet, Blessing Ngozi Uzor, Precious Chikaodinaka Anyanwu, &hellip;, <strong>Clemencia Siro</strong>, et al.
+  </p>
+  <a href="https://arxiv.org/abs/2608.14626" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://scholar.google.com/citations?hl=en&user=VSJ78nMAAAAJ" target="_blank" rel="noopener">
+      LLMs for, with, and as Humans: A Survey of Rethinking the Landscape of Human&ndash;LLM Interaction
+    </a>
+  </p>
+  <p class="pub-meta">
+    Preprint <span class="tag preprint">preprint</span>
+  </p>
+  <p class="pub-authors">
+    <strong>Clemencia Siro</strong>, Yifei Yuan, Yougang Lyu, Mohammad Aliannejadi, Maarten de Rijke
+  </p>
+  <a href="https://scholar.google.com/citations?hl=en&user=VSJ78nMAAAAJ" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
 
   <article class="publication">
   <p>
@@ -155,43 +196,131 @@
   <!-- <a href="https://colab.research.google.com/github/stanford-futuredata/LLMJudge/blob/main/notebook.ipynb" class="btn" target="_blank" rel="noopener">Notebook</a> -->
 </article>
 
-<article class="publication">
-  <p>
-    <a href="https://arxiv.org/abs/2410.19692" target="_blank" rel="noopener">
-      Agent-CQ: Automatic generation and evaluation of clarifying questions for conversational search with LLMs
-    </a>
-    
-  </p>
-  <p class="pub-meta">
-    arXiv <span class="tag preprint">preprint</span>
-  </p>
-  <p class="pub-authors">
-    <strong>Clemencia Siro</strong>, Yifei Yuan, Mohammad Aliannejadi, Maarten de Rijke
-  </p>
-  <a href="https://arxiv.org/pdf/2410.19692.pdf" class="btn" target="_blank" rel="noopener">PDF</a>
 
-</article>
-
-<article class="publication">
-  <p>
-    <a href="https://openreview.net/pdf?id=Z08KYrmIPW" target="_blank" rel="noopener">
-      5th Workshop on African Natural Language Processing (AfricaNLP 2024)
-    </a>
-    
-  </p>
-  <p class="pub-meta">
-    ICLR 2024 Workshops <span class="tag preprint">workshop proposal</span>
-  </p>
-  <p class="pub-authors">
-    Happy Buzaaba, Bonaventure FP Dossou,&hellip;, <strong>Clemencia Siro</strong>, et al.
-  </p>
-  <a href="https://openreview.net/pdf?id=Z08KYrmIPW" class="btn" target="_blank" rel="noopener">PDF</a>
-</article>
 
 
 
 
   <h3>Published Works</h3>
+
+<article class="publication">
+  <p>
+    When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions
+  </p>
+  <p class="pub-meta">
+    Findings of EMNLP 2026 (to appear) <span class="tag conference">conference</span>
+  </p>
+  <p class="pub-authors">
+    <strong>Clemencia Siro</strong>, Laura Hollink
+  </p>
+  <a href="papers/siro-hollink-emnlp2026-findings.pdf" class="btn" target="_blank" rel="noopener">PDF</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://doi.org/10.1145/3809182" target="_blank" rel="noopener">
+      AGENT-CQ: Automatic Generation and Evaluation of Clarifying Questions for Conversational Search with Large Language Models
+    </a>
+  </p>
+  <p class="pub-meta">
+    ACM TOIS 2026 <span class="tag journal">journal</span>
+  </p>
+  <p class="pub-authors">
+    <strong>Clemencia Siro</strong>, Yifei Yuan, Mohammad Aliannejadi, Maarten de Rijke
+  </p>
+  <a href="https://doi.org/10.1145/3809182" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://aclanthology.org/2026.findings-eacl.335/" target="_blank" rel="noopener">
+      Learning to Judge: LLMs Designing and Applying Evaluation Rubrics
+    </a>
+  </p>
+  <p class="pub-meta">
+    Findings of EACL 2026 <span class="tag conference">conference</span>
+  </p>
+  <p class="pub-authors">
+    <strong>Clemencia Siro</strong>, Pourya Aliannejadi, Mohammad Aliannejadi
+  </p>
+  <a href="https://aclanthology.org/2026.findings-eacl.335/" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://aclanthology.org/2026.lrec-1.852/" target="_blank" rel="noopener">
+      LLMs as Annotators: Evaluating Model&ndash;Human Alignment in Detecting Contentious Language in Historical Corpora
+    </a>
+  </p>
+  <p class="pub-meta">
+    LREC 2026 <span class="tag conference">conference</span>
+  </p>
+  <p class="pub-authors">
+    Yahui Zhao, <strong>Clemencia Siro</strong>, Laura Hollink
+  </p>
+  <a href="https://aclanthology.org/2026.lrec-1.852/" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://aclanthology.org/2026.findings-acl.1433/" target="_blank" rel="noopener">
+      POLAR: A Benchmark for Multilingual, Multicultural, and Multi-Event Online Polarization
+    </a>
+  </p>
+  <p class="pub-meta">
+    Findings of ACL 2026 <span class="tag conference">conference</span>
+  </p>
+  <p class="pub-authors">
+    Usman Naseem, Robert Geislinger, Juan Ren, Sarah Kohail, &hellip;, <strong>Clemencia Siro</strong>, et al.
+  </p>
+  <a href="https://aclanthology.org/2026.findings-acl.1433/" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://aclanthology.org/2026.semeval-1.453/" target="_blank" rel="noopener">
+      SemEval-2026 Task 9: Detecting Multilingual, Multicultural and Multievent Online Polarization
+    </a>
+  </p>
+  <p class="pub-meta">
+    SemEval 2026 <span class="tag workshop">workshop</span>
+  </p>
+  <p class="pub-authors">
+    Usman Naseem, Robert Geislinger, Ada Ren, Sarah Kohail, &hellip;, <strong>Clemencia Siro</strong>, et al.
+  </p>
+  <a href="https://aclanthology.org/2026.semeval-1.453/" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://aclanthology.org/2026.africanlp-main.0/" target="_blank" rel="noopener">
+      Proceedings of the 7th Workshop on African Natural Language Processing (AfricaNLP 2026)
+    </a>
+  </p>
+  <p class="pub-meta">
+    AfricaNLP 2026 <span class="tag workshop">proceedings (editor)</span>
+  </p>
+  <p class="pub-authors">
+    Everlyn Asiko Chimoto, Constantine Lignos, Shamsuddeen Muhammad, Idris Abdulmumin, <strong>Clemencia Siro</strong>, David Ifeoluwa Adelani
+  </p>
+  <a href="https://aclanthology.org/2026.africanlp-main.0/" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
+<article class="publication">
+  <p>
+    <a href="https://aclanthology.org/2025.pals-1.0/" target="_blank" rel="noopener">
+      Proceedings of the First Workshop on Tailoring AI: Exploring Active and Passive LLM Personalization (PALS 2025)
+    </a>
+  </p>
+  <p class="pub-meta">
+    PALS 2025 <span class="tag workshop">proceedings (editor)</span>
+  </p>
+  <p class="pub-authors">
+    Andrew Silva, Katherine Metcalf, Lucie Charlotte Magister, <strong>Clemencia Siro</strong>, Maartje Ter Hoeve
+  </p>
+  <a href="https://aclanthology.org/2025.pals-1.0/" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
+
 
     <article class="publication">
   <p>
@@ -231,7 +360,7 @@
     </a>
   </p>
   <p class="pub-meta">
-    WWW'25 <span class="tag conference">conference</span>
+    WSDM'25 <span class="tag conference">conference</span>
   </p>
   <p class="pub-authors">
     Hossein A Rahmani, <strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Nick Craswell, Charles LA Clarke, Guglielmo Faggioli, Bhaskar Mitra, Paul Thomas, Emine Yilmaz
@@ -279,7 +408,7 @@
       </a>
     </p>
     <p class="pub-meta">
-      NAACL'24 <span class="tag conference">conference</span>
+      Findings of NAACL'24 <span class="tag conference">conference</span>
     </p>
     <p class="pub-authors">
       <strong>Clemencia Siro</strong>, Mohammad Aliannejadi, Maarten de Rijke
@@ -303,6 +432,21 @@
   <a href="https://dl.acm.org/doi/pdf/10.1145/3626772.3657992" class="btn" target="_blank" rel="noopener">PDF</a>
 </article>
 
+
+<article class="publication">
+  <p>
+    <a href="https://openreview.net/pdf?id=Z08KYrmIPW" target="_blank" rel="noopener">
+      5th Workshop on African Natural Language Processing (AfricaNLP 2024)
+    </a>
+  </p>
+  <p class="pub-meta">
+    ICLR 2024 Workshops <span class="tag workshop">workshop</span>
+  </p>
+  <p class="pub-authors">
+    Happy Buzaaba, Bonaventure FP Dossou, &hellip;, <strong>Clemencia Siro</strong>, et al.
+  </p>
+  <a href="https://openreview.net/pdf?id=Z08KYrmIPW" class="btn" target="_blank" rel="noopener">Link</a>
+</article>
 
   <article class="publication">
     <p>
@@ -344,7 +488,7 @@
       </a>
     </p>
     <p class="pub-meta">
-      EMNLP'23 <span class="tag conference">conference</span>
+      Findings of EMNLP'23 <span class="tag conference">conference</span>
     </p>
     <p class="pub-authors">
       Ogundepo Odunayo, ..., <strong>Clemencia Siro</strong>, et al.
@@ -370,11 +514,11 @@
   <article class="publication">
     <p>
       <a href="https://arxiv.org/abs/2304.09972" target="_blank" rel="noopener">
-        AFRICANEWS: News Topic Classification for African News
+        MasakhaNEWS: News Topic Classification for African Languages
       </a>
     </p>
     <p class="pub-meta">
-      AACL'23 <span class="tag conference">conference</span> (Area Chair Award)
+      IJCNLP-AACL'23 <span class="tag conference">conference</span> (Area Chair Award)
     </p>
     <p class="pub-authors">
       Adelani, David Ifeoluwa, ..., <strong>Clemencia Siro</strong>, et al.
@@ -447,7 +591,12 @@
       <section id="activities" class="section activities-section">
   <h2>News and Activities</h2>
   <ul class="activities-list">
-    <li> July 2025 - I will be co-organizing the AfricaNLP workshop at ACL,2025.</li>
+    <li>January 2027 – Will join the Web Information Systems (WIS) group at Delft University of Technology (TU Delft) as an Assistant Professor.</li>
+    <li>2027 – Will be co-organizing the AfricaNLP workshop at EACL 2027.</li>
+    <li>2026 – Paper accepted at Findings of EMNLP 2026: &ldquo;When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions&rdquo; (with Laura Hollink).</li>
+    <li>2026 – Co-edited the proceedings of the 7th Workshop on African Natural Language Processing (AfricaNLP 2026).</li>
+    <li>2026 – Papers published at EACL 2026 (Findings), LREC 2026 and ACL 2026 (Findings); AGENT-CQ published in ACM TOIS.</li>
+    <li>July 2025 – Co-organized the AfricaNLP workshop at ACL 2025.</li>
     <li>July 2025 – Successfully defended my PhD thesis.</li>
     <li>July 2025 – Organized the LLM4Eval workshop at SIGIR 2025.</li>
     <li>May 2025 – Began my postdoctoral research position at Centrum Wiskunde & Informatica (CWI).</li>
@@ -464,13 +613,21 @@
 </section>
 
 
+      <section id="prospective" class="section prospective-section">
+        <h2>Prospective Students</h2>
+        <p>
+          I will start as an Assistant Professor in the Web Information Systems (WIS) group at Delft University of Technology in January 2027. I am interested in working with motivated students on human-centered evaluation of AI systems, evaluation of and with large language models, conversational search and information retrieval, multilingual NLP with a focus on African languages, and responsible and trustworthy AI.
+        </p>
+        <p>
+          If you would like to work with me, please get in touch through the contact details below, with a short description of your research interests and your CV. Information about open positions will be posted here.
+        </p>
+      </section>
+
       <section id="contact" class="section contact-section">
         <h2>Contact</h2>
         <p>
           Email:
-          <a href="mailto:c.n.siro@uva.nl" aria-label="Email Clemencia Siro"
-            >c.n.siro[at]cwi.nl</a
-          >
+          <span id="email" aria-label="Email address, shown when JavaScript is enabled">c.n.siro [at] cwi [dot] nl</span>
         </p>
       </section>
     </main>
@@ -481,6 +638,17 @@
   </footer>
 
   <script>
+    // Build the email link at runtime so it is not present in the static HTML
+    (function () {
+      const el = document.getElementById("email");
+      const addr = ["c.n.siro", "cwi.nl"].join(String.fromCharCode(64));
+      const a = document.createElement("a");
+      a.href = "mailto:" + addr;
+      a.textContent = addr;
+      a.setAttribute("aria-label", "Email Clemencia Siro");
+      el.replaceWith(a);
+    })();
+
     // Dynamic year
     document.getElementById("year").textContent = new Date().getFullYear();
 
